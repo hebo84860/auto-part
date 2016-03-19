@@ -1,4 +1,4 @@
-package com.hefeng.entity;
+package com.hefeng.part.entity;
 
 import java.io.Serializable;
 

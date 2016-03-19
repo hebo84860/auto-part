@@ -17,7 +17,7 @@
             http://www.springframework.org/schema/mvc 
 			http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
-	<context:component-scan base-package="com.hefeng"
+	<context:component-scan base-package="com.hefeng.part"
 		use-default-filters="false">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
@@ -65,11 +65,11 @@
 	</bean>
 
 
-	<bean id="audienceA" class="com.hefeng.intercept.Audience" />
+	<bean id="audienceA" class="com.hefeng.part.intercept.Audience" />
 	<aop:config>
 		<aop:aspect ref="audienceA">
 			<aop:pointcut id="performance"
-				expression="execution(* com.hefeng.controller.*.*(..))" />
+				expression="execution(* com.hefeng.part.controller.*.*(..))" />
 
 			<aop:before pointcut-ref="performance" method="before" />
 			<aop:after pointcut-ref="performance" method="after"/> 

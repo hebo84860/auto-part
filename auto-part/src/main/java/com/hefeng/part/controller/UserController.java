@@ -1,14 +1,12 @@
-package com.hefeng.controller;
+package com.hefeng.part.controller;
 
+import com.hefeng.part.entity.User;
+import com.hefeng.part.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import entity.User;
-import service.IUserService;
-
 
 @Controller
 @RequestMapping("/user")

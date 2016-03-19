@@ -1,4 +1,4 @@
-package com.hefeng.util;
+package com.hefeng.part.util;
 
 import java.util.Properties;
 

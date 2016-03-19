@@ -1,4 +1,4 @@
-package com.hefeng.intercept;
+package com.hefeng.part.intercept;
 
 public class Audience {
 	public void before(){

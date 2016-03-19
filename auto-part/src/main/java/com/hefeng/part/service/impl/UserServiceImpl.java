@@ -1,12 +1,11 @@
-/*package com.hefeng.service.impl;
+package com.hefeng.part.service.impl;
 
+import com.hefeng.part.entity.User;
+import com.hefeng.part.service.IUserService;
 import org.springframework.stereotype.Service;
 
-import entity.User;
-import service.IUserService;
-
 @Service("iUserService")
-public class UserServiceImpl implements IUserService{
+public class UserServiceImpl implements IUserService {
 
 	public User getUser(String userName) {
 		System.out.println(userName);
@@ -18,4 +17,3 @@ public class UserServiceImpl implements IUserService{
 	}
 
 }
-*/

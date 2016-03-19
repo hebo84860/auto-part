@@ -1,5 +1,6 @@
 package service;
 
+import com.hefeng.part.service.IUserService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
